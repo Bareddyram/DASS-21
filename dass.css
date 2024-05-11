@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(to bottom right, #16c2b3, #e29740);
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.inner-div {
+    width: 70%;
+    background-color: #f7e4d4;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.4);
+}
+
+.inner-div h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.inner-div h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.inner-div li {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+#submit,
+.btn {
+    font-weight: 900;
+    padding: 1.5rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #1424b6;
+    background-color: #c5b419;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 2rem;
+}
+
+#submit:hover,
+.btn:hover {
+    background-color: #44dfdf;
+}
+
+.scorearea {
+    background-color: #ca436c;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+}
+
+#showscore h3 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#showscore .btn {
+    display: block;
+    margin: 2rem auto;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #0bc7fc;
+    background-color: #55efc4;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#showscore .btn:hover {
+    background-color: #9adf6c;
+    color: #fff;
+}
